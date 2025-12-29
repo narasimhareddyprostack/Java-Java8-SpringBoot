@@ -14,5 +14,11 @@ public class LinkedListFive {
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
+        System.out.println("Iterating using for loop");
+        //iterate using for loop
+
+        for(int i=0;i<=eids.size()-1;i++){
+            System.out.println(eids.get(i));
+        }
     }
 }
