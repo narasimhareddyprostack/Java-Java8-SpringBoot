@@ -1,0 +1,8 @@
+package lambdaone;
+
+public class CalcImpl2 {
+    public static void main(String[] args) {
+        CalcI ci = (a,b)->a+b;
+        System.out.println(ci.add(10,20));
+    }
+}
